@@ -1,13 +1,26 @@
 import React from "react";
-import ResponsiveCards from "./ResponsiveCards ";
-import Trending from "./trending/Trending";
-import ShopByCategories from "./ShopCategories/ShopByCategories ";
+import TrendingData from '../../components/home/posts/trending'
+import ShopCategory from "../../components/home/categories";
+import HomePageAd from './../../components/home/advertisement/HomePageAd';
+import Special from "../../components/home/special";
+import WeeklyVendors from "../../components/home/weekly-vendors";
+import Category from "../../components/home/posts/category";
+import BrowsingHistory from "../../components/home/browsing-history";
+import AbandonedItems from "../../components/home/abandoned-items";
+
+
 
 const Home = () => {
   return (
-    <div>
-      <Trending />
-      <ShopByCategories/>
+    <div className="mt-10 ">
+    <HomePageAd/>
+    <TrendingData/> 
+    <ShopCategory/>
+    <Special/>
+    <WeeklyVendors/>
+    <Category/>
+    <BrowsingHistory/>
+    <AbandonedItems/>
     </div>
   );
 };

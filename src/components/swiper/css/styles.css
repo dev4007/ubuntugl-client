@@ -1,0 +1,49 @@
+.swiper-button-prev,
+.swiper-button-next {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #557de4;
+  color: white;
+  width: 30px; /* Adjust width and height as needed */
+  height: 30px;
+  border-radius: 50%; /* Makes the element round */
+}
+
+.swiper-button-prev {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #557de4;
+  color: white;
+  width: 30px; /* Adjust width and height as needed */
+  height: 30px;
+  border-radius: 50%; /* Makes the element round */
+}
+.previous {
+  position: absolute !important;
+  left: 0 !important;
+  margin-top: -100px !important;
+}
+.next {
+  position: absolute !important;
+  right: 0 !important;
+  margin-top: -100px !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .next {
+    position: absolute !important;
+    right: 0 !important;
+    margin-top: -50px !important; /* Adjust this value as needed for 648px */
+  }
+  .previous {
+    position: absolute !important;
+    right: 0px !important;
+    margin-top: -50px !important; /* Adjust this value as needed for 648px */
+  }
+}
