@@ -16,7 +16,8 @@ import About from "../pages/About/About";
 import BecomeVendor from "../pages/BecomeVendor/BecomeVendor";
 import ContactForm from "../pages/ContactForm/ContactForm";
 import Login from "../pages/Login/Login";
-import SidebarMainMenu from './../components/SideBar/SidebarMainMenu';
+import SidebarMainMenu from "../components/SideBar/SidebarMainMenu";
+
 
 
 
