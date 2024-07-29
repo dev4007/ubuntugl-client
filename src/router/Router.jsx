@@ -11,12 +11,13 @@ import Order from "../pages/Order/Order";
 import SavedAddress from "../pages/SavedAddress/SavedAddress";
 import WishList from "../pages/WishList/WishList";
 import PayMentOption from "../pages/PayMentOption/PayMentOption";
-import SidebarMainMenu from "../components/SideBar/SidebarMainMenu";
 import Notifications from "../pages/Notifications/Notifications";
 import About from "../pages/About/About";
 import BecomeVendor from "../pages/BecomeVendor/BecomeVendor";
 import ContactForm from "../pages/ContactForm/ContactForm";
 import Login from "../pages/Login/Login";
+import SidebarMainMenu from './../components/SideBar/SidebarMainMenu';
+
 
 
 
@@ -31,7 +32,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/search-results",
-        element: <SidebarMainMenu />,
+        element: <SidebarMainMenu/>,
       },
       {
         path: "/cart",
