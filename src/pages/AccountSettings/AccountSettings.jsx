@@ -1,14 +1,8 @@
 import React, { useState } from 'react';
-import Bel from "../../assets/Settings/Bel.svg";
-import checked_box from "../../assets/Settings/checked_box.svg";
-import Heart from "../../assets/Settings/Heart.svg";
-import LogOut from "../../assets/Settings/LogOut.svg";
-import Map from "../../assets/Settings/Map.svg";
-import User from "../../assets/Settings/User.svg";
-import Volet from "../../assets/Settings/Volet.svg";
 import Check from "../../assets/Settings/Check.svg";
 import Crose from "../../assets/Settings/Crose.svg";
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import MemberSideBar from '../../components/SideBar/MemberSideBar';
 
 function AccountSettings() {
     const [showPassword, setShowPassword] = useState(false);
@@ -16,64 +10,11 @@ function AccountSettings() {
     const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
     return (
-        <div className='2xl:px-40 p-0'>
+        <div className='2xl:px-40 2xl:pt-20 pt-7'>
             <h2 className="text-3xl font-medium mb-8">Member’s Dashboard</h2>
             <div className="lg:flex">
                 {/* Sidebar */}
-                <div className="lg:w-1/5 bg-gray-100 p-4 rounded-lg shadow-md mb-5">
-                    <nav className='py-6 lg:mt-16'>
-                        <ul>
-                            <li className="mb-4 flex items-center">
-                                <img src={User} alt="User" className="object-contain mr-4" />
-                                <span>Dashboard</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={User} alt="User" className="object-contain mr-4" />
-                                <span>Account Settings</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={checked_box} alt="Orders" className="object-contain mr-4" />
-                                <span>Orders</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={Map} alt="Map" className="object-contain mr-4" />
-                                <span>Saved Addresses</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={Heart} alt="Wishlist" className="object-contain mr-4" />
-                                <span>Wishlist</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={Volet} alt="Fund Transfer" className="object-contain mr-4" />
-                                <span>Fund Transfer</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={Bel} alt="Notification Inbox" className="object-contain mr-4" />
-                                <span>Notification Inbox</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={LogOut} alt="My Page" className="object-contain mr-4" />
-                                <span>My Page</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={LogOut} alt="Genealogy Details" className="object-contain mr-4" />
-                                <span>Genealogy Details</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={LogOut} alt="Customer Help Center" className="object-contain mr-4" />
-                                <span>Customer Help Center</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={User} alt="Apply for Vendor" className="object-contain mr-4" />
-                                <span>Apply for Vendor</span>
-                            </li>
-                            <li className="mb-4 flex items-center">
-                                <img src={LogOut} alt="Logout" className="object-contain mr-4" />
-                                <span>Logout</span>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+               <MemberSideBar/>
                 {/* Main Content */}
                 <div className="flex-1 lg:pl-8">
                     <div className="bg-white p-8 rounded-lg shadow-md">

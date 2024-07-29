@@ -6,7 +6,7 @@ import FrequentlyCart from "../../components/Cart/Post/FrequentlyCart/Frequently
 
 function Cart() {
   return (
-    <div className="">
+    <div className='2xl:pt-20 pt-7'>
       <div className="">
         <div className="flex flex-col 2xl:flex-row justify-between">
           <div className="w-full 2xl:w-3/4 overflow-x-auto">
@@ -134,7 +134,7 @@ function Cart() {
                   <span>₹72,500</span>
                 </div>
               </div>
-              <button className="mt-6 w-full bg-yellow-500 text-white py-3 rounded-lg shadow-md hover:bg-yellow-600">
+              <button className="mt-6 w-full bg-yellow-color text-white py-3 rounded-lg shadow-md hover:bg-yellow-600">
                 Proceed to Checkout
               </button>
             </div>

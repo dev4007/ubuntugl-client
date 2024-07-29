@@ -1,35 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "../header/Header";
 import { Outlet } from "react-router-dom";
 import Footer from "../footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import { useSidebar } from "../../provider/SidebarProvider";
-import MenuBar from "../Sidebar/MenuBar";
-import { menus } from "../../data/Menus";
 
 const Layout = () => {
-  const { isSidebarVisible } = useSidebar();
+  const { isSidebarVisible, isBecomeVendor, isContectForm } = useSidebar();
 
-  const [selectedMenu, setSelectedMenu] = useState("Headphones");
-  const [sidebarShow, setSidebarShow] = useState(false); // Initially hidden
-
-
-  const toggleSidebar = () => {
-    setSidebarShow(!sidebarShow);
-  };
+  // Determine the main class name based on the conditions
+  let mainClassName = "";
+  if (isBecomeVendor) {
+    mainClassName = "";
+  } else if (isContectForm) {
+    mainClassName = "";
+  } else if (!isSidebarVisible) {
+    mainClassName = "container mx-auto max-sm:px-4";
+  }
 
   return (
     <div className="bg-slate-200">
       <Header />
       <Navbar />
-      <MenuBar
-        menus={menus}
-        selectedMenu={selectedMenu}
-        setSelectedMenu={setSelectedMenu}
-        sidebarShow={sidebarShow}
-        toggleSidebar={toggleSidebar}
-      />
-      <main className="container mx-auto max-sm:px-4">
+      <main className={mainClassName}>
         <Outlet />
       </main>
       <Footer />

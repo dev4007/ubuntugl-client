@@ -1,0 +1,111 @@
+
+export const notifications = [
+    {
+      id: 1,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 2,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 3,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 4,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 5,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 6,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 7,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 8,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 9,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 10,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 11,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 12,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 13,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 14,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 15,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 16,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 17,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+    {
+      id: 18,
+      title: "Great End of Season Sale",
+      message: "Explore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking theExplore our exclusive end of season sale and enjoy up to 50% off on a wide range of products. From trendy fashion items to must-have accessories, this is your chance to upgrade your wardrobe without breaking the bank. Don’t miss out on unbeatable deals and fresh styles that cater to every taste and budget. Shop now and embrace the season's best!",
+      time:"4:15 PM, Today",
+    },
+];

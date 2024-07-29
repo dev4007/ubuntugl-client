@@ -29,7 +29,10 @@ module.exports = {
         "progress-remain" : 'rgba(217, 217, 217, 1)',
         "order-btn-green" :"rgba(35, 215, 107, 0.5)",
         "order-btn-red":"rgba(255, 58, 81, 0.5)",
-        "order-btn-yellow":"rgba(252, 198, 38, 0.5)"
+        "order-btn-yellow":"rgba(252, 198, 38, 0.5)",
+        "yellow-color":"#FCC626",
+        "customBlue1": '#557DE4',
+        "customBlue2": '#8ED6FD',
       },
       fontWeight: {
         normal: "1rem",

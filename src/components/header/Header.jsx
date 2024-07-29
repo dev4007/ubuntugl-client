@@ -46,7 +46,11 @@ const Header = () => {
                 className="flex items-center space-x-1 sm:space-x-2 relative cursor-pointer"
                 onClick={() => updateCartItemCount(0)}
               >
-                <FiShoppingCart size="25px" className="text-2xl" />
+                {/* <FiShoppingCart size="25px" className="text-2xl" /> */}
+                <div class=" relative inline-flex items-center p-3 text-sm font-medium text-center text-white">
+                  <FiShoppingCart size="30px" className="text-2xl text-black" />
+                  <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-[#557DE4] border border-black rounded-full -top-0 -end-0 dark:border-gray-900">2</div>
+                </div>
                 <div className="hidden sm:flex flex-col">
                   <p className="text-xs">Total</p>
                   <span className="text-base font-medium">₹12000</span>
@@ -102,11 +106,16 @@ const Header = () => {
             className="flex items-center space-x-1 sm:space-x-2 relative cursor-pointer"
             onClick={() => updateCartItemCount(0)}
           >
-            <FiShoppingCart size="30px" className="text-2xl" />
+            <div class=" relative inline-flex items-center p-3 text-sm font-medium text-center text-white">
+              <FiShoppingCart size="30px" className="text-2xl text-black" />
+              <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-[#557DE4] border border-black rounded-full -top-0 -end-0 dark:border-gray-900">2</div>
+            </div>
             <div className="flex flex-col">
               <p className="text-xs">Total</p>
               <span className="text-base font-medium">₹12000</span>
             </div>
+
+
           </div>
         </div>
       </div>

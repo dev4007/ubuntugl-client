@@ -111,8 +111,14 @@ function SearchResultsComponent() {
               {product.reviews} reviews
               </div>
             </div>
-            {hoveredProductId === product.id && (
-              <div className="flex justify-between mt-4 ">
+            {/* {hoveredProductId === product.id && ( */}
+              <div className="flex justify-between mt-4 h-8">
+                <div 
+                style={{
+                  display: hoveredProductId === product.id ? 'contents' : 'none',
+                }}
+                >
+
                 <div className="hidden sm:flex bg-slate-300 rounded text-sm w-25">
                   <button
                     className="font-bold py-2 px-4 rounded-l"
@@ -134,8 +140,9 @@ function SearchResultsComponent() {
                 >
                   Add to Cart
                 </button>
+                </div>
               </div>
-            )}
+            {/* )} */}
           </div>
         </div>
       ))}

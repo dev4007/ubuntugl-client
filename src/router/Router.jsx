@@ -9,6 +9,14 @@ import OrderConfirmation from "../pages/OrderConfirmation/OrderConfirmation";
 import AccountSettings from "../pages/AccountSettings/AccountSettings";
 import Order from "../pages/Order/Order";
 import SavedAddress from "../pages/SavedAddress/SavedAddress";
+import WishList from "../pages/WishList/WishList";
+import PayMentOption from "../pages/PayMentOption/PayMentOption";
+import SidebarMainMenu from "../components/SideBar/SidebarMainMenu";
+import Notifications from "../pages/Notifications/Notifications";
+import About from "../pages/About/About";
+import BecomeVendor from "../pages/BecomeVendor/BecomeVendor";
+import ContactForm from "../pages/ContactForm/ContactForm";
+import Login from "../pages/Login/Login";
 
 
 
@@ -23,7 +31,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/search-results",
-        element: <SearchResults />,
+        element: <SidebarMainMenu />,
       },
       {
         path: "/cart",
@@ -48,6 +56,34 @@ export const router = createBrowserRouter([
       {
         path: "/saved-address",
         element: <SavedAddress />,
+      },
+      {
+        path: "/wishlist",
+        element: <WishList />,
+      },
+      {
+        path: "/payment-option",
+        element: <PayMentOption />,
+      },
+      {
+        path: "/notifications",
+        element: <Notifications />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/become-vendor",
+        element: <BecomeVendor />,
+      },
+      {
+        path: "/contact-form",
+        element: <ContactForm />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
       {
         path: "/test",

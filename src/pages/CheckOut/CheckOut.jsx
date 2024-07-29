@@ -7,7 +7,7 @@ function CheckOut() {
 
   return (
     <div className="">
-      <div className="2xl:px-40 ">
+      <div className='2xl:px-40 2xl:pt-20 pt-7'>
         <div className="flex flex-col 2xl:flex-row justify-between">
           <div className="w-full 2xl:w-3/5 overflow-x-auto">
             <h1 className="text-2xl 2xl:text-3xl font-medium mb-6">Checkout</h1>
@@ -52,7 +52,7 @@ function CheckOut() {
                       Don’t have an account?{" "}
                       <span className="font-bold text-blue-500">Sign Up</span>
                     </p>
-                    <button className="bg-yellow-400 2xl:w-3/4 w-full rounded-lg py-2 2xl:text-2xl text-xl font-medium">
+                    <button className="bg-yellow-color 2xl:w-3/4 w-full rounded-lg py-2 2xl:text-2xl text-xl font-medium">
                       Log In{" "}
                     </button>
                   </div>
@@ -140,7 +140,7 @@ function CheckOut() {
                   <div className="">
                     <div className="2xl:flex justify-between items-center 2xl:w-3/4 gap-7">
                       <div className="flex justify-between 2xl:w-1/2 w-full py-1">
-                        <button className="bg-yellow-400  w-full rounded-lg py-2 text-xl">
+                        <button className="bg-yellow-color  w-full rounded-lg py-2 text-xl">
                           Confirm Address{" "}
                         </button>
                       </div>
@@ -214,7 +214,7 @@ function CheckOut() {
                     </label>
                   </div>
                 </div>
-                <button className="bg-yellow-400 2xl:w-2/6 w-full rounded-lg py-2 text-xl mt-4">
+                <button className="bg-yellow-color 2xl:w-2/6 w-full rounded-lg py-2 text-xl mt-4">
                   Continue to Payment
                 </button>
               </div>

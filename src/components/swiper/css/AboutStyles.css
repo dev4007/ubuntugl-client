@@ -1,0 +1,36 @@
+/* Custom styles for the Swiper navigation buttons in the AboutSwiper component */
+.about-swiper .swiper-button-next, .about-swiper .swiper-button-prev {
+    color: #fff; /* Text/icon color */
+    background-color: #000; /* Background color */
+    border-radius: 50%; /* Round buttons */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow */
+    opacity: 0.8; /* Slight transparency */
+    transition: opacity 0.3s;
+}
+
+.about-swiper .swiper-button-next:hover, .about-swiper .swiper-button-prev:hover {
+    opacity: 1; /* Fully opaque on hover */
+}
+
+.about-swiper .swiper-button-next::after, .about-swiper .swiper-button-prev::after {
+    font-size: 50px; /* Icon size */
+}
+
+.about-swiper .swiper-button-next {
+    right: 10px; /* Adjust right position */
+}
+
+.about-swiper .swiper-button-prev {
+    left: 10px; /* Adjust left position */
+}
+
+.about-swiper .swiper-button-next, 
+.about-swiper .swiper-button-prev {
+    z-index: 10;
+}
+
